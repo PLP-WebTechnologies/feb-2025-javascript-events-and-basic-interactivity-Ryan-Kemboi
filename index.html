@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Button that changes text and color -->
+  <button id="clickButton">Click me</button>
+
+  <!-- Image Gallery -->
+  <div>
+    <img id="gallery" src="image1.jpg" alt="Image Gallery" width="200">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-button" data-target="section1">Tab 1</button>
+    <button class="tab-button" data-target="section2">Tab 2</button>
+    <div id="section1" class="tab-content">Content for Tab 1</div>
+    <div id="section2" class="tab-content" style="display: none;">Content for Tab 2</div>
+  </div>
+
+  <!-- Form with Validation -->
+  <form id="myForm">
+    <input type="text" id="username" required placeholder="Enter username">
+    <input type="email" id="email" required placeholder="Enter email">
+    <input type="password" id="password" required placeholder="Enter password">
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
